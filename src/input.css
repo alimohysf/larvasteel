@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html{
+    margin: 0;
+    height: 100%;
+}
+
+.hero{
+    background-image: url('img/hero.jpg');
+
+    /*Full Height*/
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
